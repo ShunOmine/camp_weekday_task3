@@ -1,0 +1,127 @@
+Started GET "/" for 127.0.0.1 at 2019-03-04 11:55:50 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (4.0ms)
+Completed 200 OK in 22ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calcs/4/addition/5" for 127.0.0.1 at 2019-03-04 11:56:07 +0900
+Processing by CalcsController#addition as HTML
+  Parameters: {"number"=>"5"}
+  Rendering calcs/addition.html.erb within layouts/application
+  Rendered calcs/addition.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 596ms (Views: 592.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calcs/4/addition/5" for 127.0.0.1 at 2019-03-04 11:56:43 +0900
+Processing by CalcsController#addition as HTML
+  Parameters: {"number"=>"5"}
+  Rendering calcs/addition.html.erb within layouts/application
+  Rendered calcs/addition.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 28ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calcs/4/addition/5" for 127.0.0.1 at 2019-03-04 11:58:05 +0900
+Processing by CalcsController#addition as HTML
+  Parameters: {"number_one"=>"4", "number_two"=>"5"}
+  Rendering calcs/addition.html.erb within layouts/application
+  Rendered calcs/addition.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 27ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calcs/4/addition/5" for 127.0.0.1 at 2019-03-04 11:58:56 +0900
+Processing by CalcsController#addition as HTML
+  Parameters: {"number_one"=>"4", "number_two"=>"5"}
+  Rendering calcs/addition.html.erb within layouts/application
+  Rendered calcs/addition.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calcs/4/addition/5" for 127.0.0.1 at 2019-03-04 11:59:16 +0900
+Processing by CalcsController#addition as HTML
+  Parameters: {"number_one"=>"4", "number_two"=>"5"}
+  Rendering calcs/addition.html.erb within layouts/application
+  Rendered calcs/addition.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calcs/4/addition/5" for 127.0.0.1 at 2019-03-04 11:59:18 +0900
+Processing by CalcsController#addition as HTML
+  Parameters: {"number_one"=>"4", "number_two"=>"5"}
+  Rendering calcs/addition.html.erb within layouts/application
+  Rendered calcs/addition.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calcs/4/addition/5" for 127.0.0.1 at 2019-03-04 11:59:18 +0900
+Processing by CalcsController#addition as HTML
+  Parameters: {"number_one"=>"4", "number_two"=>"5"}
+  Rendering calcs/addition.html.erb within layouts/application
+  Rendered calcs/addition.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calcs/4/addition/5" for 127.0.0.1 at 2019-03-04 11:59:43 +0900
+Processing by CalcsController#addition as HTML
+  Parameters: {"number_one"=>"4", "number_two"=>"5"}
+  Rendering calcs/addition.html.erb within layouts/application
+  Rendered calcs/addition.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calcs/4/addition/5" for 127.0.0.1 at 2019-03-04 12:00:19 +0900
+Processing by CalcsController#addition as HTML
+  Parameters: {"number_one"=>"4", "number_two"=>"5"}
+  Rendering calcs/addition.html.erb within layouts/application
+  Rendered calcs/addition.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calcs/4/addition/5" for 127.0.0.1 at 2019-03-04 12:01:01 +0900
+Processing by CalcsController#addition as HTML
+  Parameters: {"number_one"=>"4", "number_two"=>"5"}
+  Rendering calcs/addition.html.erb within layouts/application
+  Rendered calcs/addition.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calcs/4/addition/6" for 127.0.0.1 at 2019-03-04 12:01:05 +0900
+Processing by CalcsController#addition as HTML
+  Parameters: {"number_one"=>"4", "number_two"=>"6"}
+  Rendering calcs/addition.html.erb within layouts/application
+  Rendered calcs/addition.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calcs/4/multiplication/6" for 127.0.0.1 at 2019-03-04 12:02:43 +0900
+Processing by CalcsController#multiplication as HTML
+  Parameters: {"number_one"=>"4", "number_two"=>"6"}
+  Rendering calcs/multiplication.html.erb within layouts/application
+  Rendered calcs/multiplication.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calcs/4/subtraction/6" for 127.0.0.1 at 2019-03-04 12:03:04 +0900
+Processing by CalcsController#subtraction as HTML
+  Parameters: {"number_one"=>"4", "numbe_twor"=>"6"}
+  Rendering calcs/subtraction.html.erb within layouts/application
+  Rendered calcs/subtraction.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calcs/4/subtraction/6" for 127.0.0.1 at 2019-03-04 12:03:28 +0900
+Processing by CalcsController#subtraction as HTML
+  Parameters: {"number_one"=>"4", "number_two"=>"6"}
+  Rendering calcs/subtraction.html.erb within layouts/application
+  Rendered calcs/subtraction.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calcs/4/division/6" for 127.0.0.1 at 2019-03-04 12:03:46 +0900
+Processing by CalcsController#division as HTML
+  Parameters: {"number_one"=>"4", "number_two"=>"6"}
+  Rendering calcs/division.html.erb within layouts/application
+  Rendered calcs/division.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
