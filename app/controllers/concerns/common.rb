@@ -10,11 +10,16 @@ module Common
     elsif @calculation == "multiplication"
       @answer = @number_one * @number_two
     elsif @calculation == "division"
-      begin
-        @division = @number_one.divmod(@number_two)
-        @answer = "#{@division[0]}..#{@division[1]}"
-      rescue ZeroDivisionError
-        @answer = "divided by 0"
+      if @number_one >= @number_two
+        begin
+          @answer = @number_one / @number_two
+        rescue ZeroDivisionError
+          @answer = "divided by 0"
+        end
+      else
+        @division_one = @number_one / @number_two
+        @division_two = @number_one % @number_two
+        @answer = "#{@division_one}..#{@division_two}"
       end
     end
   end
